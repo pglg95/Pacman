@@ -98,9 +98,15 @@
     <Image Include="..\..\..\..\Desktop\pacman\iconp.ico" />
     <Image Include="..\..\..\..\Desktop\pacman\sprite.bmp" />
     <Image Include="..\..\..\..\Desktop\pacman\start3.bmp" />
+    <Image Include="res\black.bmp" />
+    <Image Include="res\iconp.ico" />
+    <Image Include="res\sciana.bmp" />
+    <Image Include="res\sprite.bmp" />
+    <Image Include="res\start3.bmp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\..\..\..\Desktop\level.txt" />
+    <Text Include="res\level.txt" />
   </ItemGroup>
   <ItemGroup>
     <Media Include="..\..\..\..\Desktop\pacman\background.wav" />
@@ -113,9 +119,20 @@
     <Media Include="..\..\..\..\Desktop\pacman\Program997MilicjaObywatelska250kDzwonek.wav" />
     <Media Include="..\..\..\..\Desktop\pacman\start.wav" />
     <Media Include="..\..\..\..\Desktop\pacman\win.wav" />
+    <Media Include="res\background.wav" />
+    <Media Include="res\background2.wav" />
+    <Media Include="res\death.wav" />
+    <Media Include="res\eating.wav" />
+    <Media Include="res\eatingghost.wav" />
+    <Media Include="res\fruit.wav" />
+    <Media Include="res\loselive.wav" />
+    <Media Include="res\nodeath.wav" />
+    <Media Include="res\start.wav" />
+    <Media Include="res\win.wav" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\..\desktop\pacman\wave9.bin" />
+    <None Include="res\wave12.bin" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

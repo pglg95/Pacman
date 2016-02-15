@@ -183,9 +183,10 @@ IDR_WAVE5         EQU               110
 IDR_WAVE6        EQU                111
 IDR_WAVE7         EQU               112
 IDR_WAVE8         EQU               113
-IDR_WAVE9         EQU               117
 IDR_WAVE10        EQU               118
 IDR_WAVE11       EQU               119
+IDR_WAVE12       EQU               120
+
 .CODE
 
 start:
@@ -1824,7 +1825,7 @@ GameControl PROC
 			mov GAMESTAT,1
 		.ENDIF
 	.ELSEIF GAMESTAT==1 ;nacisniecie przycisk odegranie dzwieku
-		INVOKE PlaySound,IDR_WAVE9, hInstance, SND_RESOURCE
+		INVOKE PlaySound,IDR_WAVE12, hInstance, SND_RESOURCE
 		mov GAMESTAT,2
 		
 	.ELSEIF GAMESTAT==2 || GAMESTAT==4;rutyna gry lub tryb niesmiertelnosci

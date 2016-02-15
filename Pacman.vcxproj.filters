@@ -48,9 +48,25 @@
     <Image Include="..\..\..\..\Desktop\pacman\iconp.ico">
       <Filter>Resource Files</Filter>
     </Image>
+    <Image Include="res\sciana.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\black.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\sprite.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\start3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\iconp.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\..\..\..\Desktop\level.txt" />
+    <Text Include="res\level.txt" />
   </ItemGroup>
   <ItemGroup>
     <Media Include="..\..\..\..\Desktop\pacman\death.wav">
@@ -83,9 +99,42 @@
     <Media Include="..\..\..\..\Desktop\pacman\Program997MilicjaObywatelska250kDzwonek.wav">
       <Filter>Resource Files</Filter>
     </Media>
+    <Media Include="res\death.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="res\eating.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="res\eatingghost.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="res\fruit.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="res\loselive.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="res\nodeath.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="res\start.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="res\background.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="res\win.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="res\background2.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\..\desktop\pacman\wave9.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\wave12.bin">
       <Filter>Resource Files</Filter>
     </None>
   </ItemGroup>
